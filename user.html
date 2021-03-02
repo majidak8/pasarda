@@ -1,0 +1,1478 @@
+<!doctype html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+	<!-- SLICK -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.9.3/hamburgers.css" rel="stylesheet"/>
+    <!-- font icons-->
+    <link rel="stylesheet" type="text/css" href="fonts/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="css/pace.css">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/hover.css">
+
+    <link rel="stylesheet" type="text/css" href="css/selectric.css">
+    <!-- SCRIPT -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="row p0">
+        <!-- navbar-1 -->
+        <div id="navbar-1" class="hidden-lg hidden-md col-sm-12 col-xs-12 p0">
+            <div class="col-sm-8 col-xs-8 search p0">
+                <form method="get" action="#">
+                    <button class="button-1" type="submit">
+                        <i class="icon-search"></i>
+                    </button>
+                    <input type="text" class="col-sm-10 col-xs-10 txt-search" placeholder="جست و جوی سریع" name="search">
+                </form>
+            </div>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" id="closebtn" class="closebutton" onclick="closeNav()">&times;</a>
+                <ul class="overlay-ul">
+                    <li>
+                        <div id="overlay-content0" class="overlay-content">
+                            <a href="#">صفحه نخست</a>
+                        </div>
+                    </li>
+                    <li class="overlay-content">
+                        <div id="overlay-content1">
+                                فیلم<i class="icon-chevron-left"></i>
+                        </div>
+                        <ul id="overlay-menu1" class="overlay-menu">
+                                <li>
+                                    <div id="overlay-menu11">
+                                        فیلم ها<i class="icon-chevron-left"></i>
+                                    </div>
+                                    <ul id="overlay-list11" class="overlay-list">
+                                        <li><a href="#">همه</a></li>
+                                        <li><a href="#">به زودی</a></li>
+                                        <li><a href="#">فیلم های برتر کاربران</a></li>
+                                        <li><a href="#">جدول باکس آفیس</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div id="overlay-menu12">
+                                        ویژه ها<i class="icon-chevron-left"></i>
+                                    </div>
+                                    <ul id="overlay-list12" class="overlay-list">
+                                        <li><a href="#">
+                                            250 فیلم برتر imdb</a></li>
+                                        <li><a href="#">فیلم های برتر قرن 21</a></li>
+                                        <li><a href="#">برترین فیلم های اسکار</a></li>
+                                        <li><a href="#">برترین فیلم های منتقدان</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div id="overlay-menu13">
+                                        جوایز<i class="icon-chevron-left"></i>
+                                    </div>
+                                    <ul id="overlay-list13" class="overlay-list">
+                                        <li><a href="#">لیست جوایز اسکار</a></li>
+                                        <li><a href="#">آرشیو گلدن گلاب</a></li>
+                                        <li><a href="#">برندگان جشنواره برلین</a></li>
+                                        <li><a href="#">برترین های جشنواره کن</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div id="overlay-menu14">
+                                         برترین ها<i class="icon-chevron-left"></i>
+                                    </div>
+                                    <ul id="overlay-list14" class="overlay-list">
+                                        <li><a href="#">2019</a></li>
+                                        <li><a href="#">2018</a></li>
+                                        <li><a href="#">2017</a></li>
+                                        <li><a href="#">2016</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="overlay-content">
+                        <div id="overlay-content2">سریال<i class="icon-chevron-left"></i></div>
+                        <ul id="overlay-menu2" class="overlay-menu">
+                            <li>
+                                <div id="overlay-menu21">
+                                     سریال ها<i class="icon-chevron-left"></i>
+                                </div>
+                                <ul id="overlay-list21" class="overlay-list">
+                                    <li><a href="#">همه</a></li>
+                                    <li><a href="#">انیمه</a></li>
+                                    <li><a href="#">ایرانی</a></li>
+                                    <li><a href="#">کره ای</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div id="overlay-menu22">
+                                    وضعیت پخش<i class="icon-chevron-left"></i>
+                                 </div>
+                                <ul id="overlay-list22" class="overlay-list">
+                                    <li><a href="#">درحال پخش</a></li>
+                                    <li><a href="#">به پایان رسیده</a></li>
+                                    <li><a href="#">در انتظار تمدید</a></li>
+                                    <li><a href="#">کنسل شده</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div id="overlay-menu23">
+                                    ویژه ها<i class="icon-chevron-left"></i>
+                                </div>
+                                <ul id="overlay-list23" class="overlay-list">
+                                    <li><a href="#">
+                                        250 سریال برتر imdb</a></li>
+                                    <li><a href="#">پر بازدید ترین سریال ها</a></li>
+                                    <li><a href="#">سریال برتر کاربران</a></li>
+                                    <li><a href="#">لیست جوایز امی</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div id="overlay-menu24">
+                                    معرفی<i class="icon-chevron-left"></i>
+                                </div>
+                                <ul id="overlay-list24" class="overlay-list">
+                                    <li><a href="#">سریال های به زودی</a></li>
+                                    <li><a href="#">برترین عناوین</a></li>
+                                    <li><a href="#">برترین سریال هفته</a></li>
+                                    <li><a href="#">جدول پخش هفتگی</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="overlay-content">
+                        <div id="overlay-content3">دوبله<i class="icon-chevron-left"></i></div>
+                        <ul id="overlay-menu3" class="overlay-menu">
+                            <li>
+                                <a href="#">فیلم</a>
+                            </li>
+                            <li>
+                                <a href="#">سریال</a>
+                            </li>
+                            <li>
+                                <a href="#">انیمه</a>
+                            </li>
+                            <li>
+                                <a href="#">اختصاصی</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="overlay-content">
+                        <div id="overlay-content4">هنرمندان<i class="icon-chevron-left"></i></div>
+                        <ul id="overlay-menu4" class="overlay-menu">
+                            <li>
+                                <div id="overlay-menu41">
+                                    هنرمندان زن<i class="icon-chevron-left"></i>
+                                </div>
+                                <ul id="overlay-list41" class="overlay-list">
+                                    <li><a href="#">کارگردان زن</a></li>
+                                    <li><a href="#">بازیگر زن</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div id="overlay-menu42">
+                                    هنرمندان مرد<i class="icon-chevron-left"></i>
+                                </div>
+                                <ul id="overlay-list42" class="overlay-list">
+                                    <li><a href="#">کارگردان مرد</a></li>
+                                    <li><a href="#">بازیگر مرد</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="overlay-content5" class="overlay-content">
+                        <a href="#">تریلر</a>
+                    </li>
+                    <li id="overlay-content6" class="overlay-content">
+                        <a href="#">ارتباط با ما</a>
+                    </li>
+                    <li id="overlay-content7" class="overlay-content">
+                        <a href="#">سبد خرید</a>
+                    </li>
+                </ul>
+            </div>
+            <span class="open-click" onclick="openNav()">&#9776;</span>
+        </div>
+        <!-- head -->
+        <div class="row p0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header p0">
+                <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 right p0">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo-img p0">
+                        <img class="img-responsive" src="img/Layer%205.png" alt="">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 name p0">
+                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 name1 p0" >اسـپینا مــووی</span>
+                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 name2 p0" >S  p i n a  M o v i e </span>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 wall-img p0">
+                        <img class="img-fluid wall" src="img/Layer%206.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs left p0">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-7 buy p0">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 buy-img p0">
+                            <img class="img-fluid p0" src="img/Layer%2014.png" alt="">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 user-t" >
+                            11
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 user-bt" href="#">
+                            سبد خرید شما
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 user-ob">
+                        <a href="#">مشاهده</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row p0" >
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 notification-1 p0">
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 notification1-img p0">
+                        <img class="img-responsive p0" src="img/Layer%2010.png" alt="">
+                    </div>
+                    <div class="col-lg-11 col-md-10 col-sm-10 col-xs-10 notification1 p0" >
+                        اسپینا مووی مرجعی کامل از بهترینها
+                    <a class="p0" href="#">  جزئـیات بیشتر...!  </a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 notification-2 p0">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 not-img p0">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 notification2-img p0">
+                            <img src="img/Layer%209.png" class="img-responsive" alt="">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 etelaeieh">
+                            اطلاعیه سایت :
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 modiriat">
+                            (مدیریت سیستم)
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 notification-txt">
+                        در حال حاضر بخش کـالکـشن سـایت در دسـترس نمـیباشد
+                        در حال حاضر بخش کـالکـشن سـایت در دسـترس نمـیباشد
+                    </div>
+                </div>
+        </div>
+        <!-- navbar -->
+        <div id="navbar" class="col-lg-12 col-md-12 hidden-sm hidden-xs p0">
+            <ul class="nav-ul p0">
+                <li class="subbtn">
+                    <a href="#"> صفحه نخست</a>
+                </li>
+                <li class=" subbtn" >
+                    <a href="#">فیلم</a>
+                    <i class="icon-caret-down"></i>
+                        <ul class="col-lg-12 col-md-12 subnav">
+                            <li class=" submenu"><a href="#">فیلم ها</a>
+                            <i class="icon-chevron-down"></i>
+                                <div class="sublist">
+                                    <ul class="genre-sub-menu p0">
+                                        <li><a href="#">همه</a></li>
+                                        <li><a href="#">به زودی</a></li>
+                                        <li><a href="#">فیلم های برتر کاربران</a></li>
+                                        <li><a href="#">جدول باکس آفیس</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class=" submenu"><a href="#">ویژه ها</a>
+                                <i class="icon-chevron-down"></i>
+                                <div class="sublist">
+                                    <ul class="genre-sub-menu p0">
+                                        <li><a href="#">
+                                            250 فیلم برتر imdb</a></li>
+                                        <li><a href="#">فیلم های برتر قرن 21</a></li>
+                                        <li><a href="#">برترین فیلم های اسکار</a></li>
+                                        <li><a href="#">برترین فیلم های منتقدان</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class=" submenu"><a href="#">جوایز</a>
+                                <i class="icon-chevron-down"></i>
+                                <div class="sublist">
+                                    <ul class="genre-sub-menu p0">
+                                        <li><a href="#">لیست جوایز اسکار</a></li>
+                                        <li><a href="#">آرشیو گلدن گلاب</a></li>
+                                        <li><a href="#">برندگان جشنواره برلین</a></li>
+                                        <li><a href="#">برترین های جشنواره کن</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class=" submenu"><a href="#">برترینها</a>
+                                <i class="icon-chevron-down"></i>
+                                <div class="sublist">
+                                    <ul class="genre-sub-menu p0">
+                                        <li><a href="#">2019</a></li>
+                                        <li><a href="#">2018</a></li>
+                                        <li><a href="#">2017</a></li>
+                                        <li><a href="#">2016</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                    </ul>
+                </li>
+                <li class=" subbtn" >
+                    <a href="#">سریال</a>
+                    <i class="icon-caret-down"></i>
+                    <ul class="col-lg-12 col-md-12 subnav">
+                        <li class=" submenu"><a href="#">سریال ها</a>
+                            <i class="icon-chevron-down"></i>
+                            <div class="sublist">
+                                <ul class="genre-sub-menu p0 p0">
+                                    <li><a href="#">همه</a></li>
+                                    <li><a href="#">انیمه</a></li>
+                                    <li><a href="#">ایرانی</a></li>
+                                    <li><a href="#">کره ای</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class=" submenu"><a href="#">وضعیت پخش</a>
+                            <i class="icon-chevron-down"></i>
+                            <div class="sublist">
+                                <ul class="genre-sub-menu p0">
+                                    <li><a href="#">درحال پخش</a></li>
+                                    <li><a href="#">به پایان رسیده</a></li>
+                                    <li><a href="#">در انتظار تمدید</a></li>
+                                    <li><a href="#">کنسل شده</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class=" submenu"><a href="#">ویژه ها</a>
+                            <i class="icon-chevron-down"></i>
+                            <div class="sublist">
+                                <ul class="genre-sub-menu p0">
+                                    <li><a href="#">
+                                        250 سریال برتر imdb</a></li>
+                                    <li><a href="#">پر بازدید ترین سریال ها</a></li>
+                                    <li><a href="#">سریال برتر کاربران</a></li>
+                                    <li><a href="#">لیست جوایز امی</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class=" submenu"><a href="#">معرفی</a>
+                            <i class="icon-chevron-down"></i>
+                            <div class="sublist">
+                                <ul class="genre-sub-menu p0">
+                                    <li><a href="#">سریال های به زودی</a></li>
+                                    <li><a href="#">برترین عناوین</a></li>
+                                    <li><a href="#">برترین سریال هفته</a></li>
+                                    <li><a href="#">جدول پخش هفتگی</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" subbtn" >
+                    <a href="#">دوبله</a>
+                    <i class="icon-caret-down"></i>
+                    <ul class="col-lg-12 col-md-12 subnav">
+                        <li class="submenu"><a href="#">فیلم</a></li>
+                        <li class="submenu"><a href="#">سریال</a></li>
+                        <li class="submenu"><a href="#">انیمه</a></li>
+                        <li class="submenu"><a href="#">اختصاصی</a></li>
+                    </ul>
+                </li>
+                <li class=" subbtn" >
+                    <a href="#">هنرمندان</a>
+                    <i class="icon-caret-down"></i>
+                    <ul class="col-lg-12 col-md-12 subnav">
+                        <li class=" submenu"><a href="#">هنرمندان زن
+                            <i class="icon-chevron-down"></i></a>
+                            <div class="sublist">
+                                <ul class="genre-sub-menu p0">
+                                    <li><a href="#">کارگردان زن</a></li>
+                                    <li><a href="#">بازیگر زن</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class=" submenu"><a href="#">هنرمندان مرد
+                            <i class="icon-chevron-down"></i></a>
+                            <div class="sublist">
+                                <ul class="genre-sub-menu p0">
+                                    <li><a href="#">کارگردان مرد</a></li>
+                                    <li><a href="#">بازیگر مرد</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="subbtn">
+                    <a href="#">تریلر</a>
+                </li>
+                <li class="subbtn">
+                    <a href="#">ارتباط با ما</a>
+                </li>
+            </ul>
+            <div class="col-lg-3 col-md-4 search p0">
+                <form method="get" action="#">
+                    <input type="text" class="col-lg-9 col-md-9txt-search" placeholder="جست و جوی سریع" name="search">
+                    <button class="button" type="submit">
+                        <i class="icon-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <!-- Sidebar -->
+        <div class="slider p0">
+                <div class="Tittle-New">فیلم های جدید</div>
+                <div class=" btn-slider p0">
+                    <div id="PRV" >
+                        <i class="icon-chevron-right"></i>
+                    </div>
+                   <div id="NTX" >
+                        <i class="icon-chevron-left"></i></div>
+                </div>
+                <div  class="slick-list draggable p0">
+                <div class="CenterA row-NewP p0">
+                    <div class="New-1 p0" data-merge="1">
+                        <ul>
+                            <li>
+                                <img src="img/1.jpg"  alt="Cinque Terre">
+
+                                <a href="#"><div class="OverAll-1">The Conjuring 2016</div></a>
+
+                                <a href="#"><div class="OverAll-2">دانلود</div></a>
+
+                                <a href="#"><div class="OverAll-3">Add To Watch List</div></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="New-1 p0" data-merge="1">
+                        <ul>
+                            <li>
+                                <img src="img/D.jpg"  alt="Cinque Terre">
+
+                                <a href="#"><div class="OverAll-1">The Conjuring 2016</div></a>
+
+                                <a href="#"><div class="OverAll-2">دانلود</div></a>
+
+                                <a href="#"><div class="OverAll-3">Add To Watch List</div></a></li>
+                        </ul>
+                    </div>
+                    <div class="New-1 p0" data-merge="1">
+                        <ul>
+                            <li>
+                                <img src="img/2.jpg"  alt="Cinque Terre">
+
+                                <a href="#"><div class="OverAll-1">The Conjuring 2016</div></a>
+
+                                <a href="#"><div class="OverAll-2">دانلود</div></a>
+
+                                <a href="#"><div class="OverAll-3">Add To Watch List</div></a></li>
+                        </ul>
+                    </div>
+                    <div class="New-1 p0" data-merge="1">
+                        <ul>
+                            <li>
+                                <img src="img/3.jpg"  alt="Cinque Terre">
+
+                                <a href="#"><div class="OverAll-1">The Conjuring 2016</div></a>
+
+                                <a href="#"><div class="OverAll-2">دانلود</div></a>
+
+                                <a href="#"><div class="OverAll-3">Add To Watch List</div></a></li>
+                        </ul>
+                    </div>
+                    <div class="New-1 p0" data-merge="1">
+                        <ul>
+                            <li>
+                                <img src="img/4.jpg"  alt="Cinque Terre">
+
+                                <a href="#"><div class="OverAll-1">The Conjuring 2016</div></a>
+
+                                <a href="#"><div class="OverAll-2">دانلود</div></a>
+
+                                <a href="#"><div class="OverAll-3">Add To Watch List</div></a></li>
+                        </ul>
+                    </div>
+                    <div class="New-1 p0" data-merge="1">
+                        <ul>
+                            <li>
+                                <img src="img/5.jpg"  alt="Cinque Terre">
+
+                                <a href="#"><div class="OverAll-1">The Conjuring 2016</div></a>
+
+                                <a href="#"><div class="OverAll-2">دانلود</div></a>
+
+                                <a href="#"><div class="OverAll-3">Add To Watch List</div></a></li>
+                        </ul>
+                    </div>
+                    <div class="New-1 p0" data-merge="1">
+                        <ul>
+                            <li>
+                                <img src="img/1.jpg"  alt="Cinque Terre">
+
+                                <a href="#"><div class="OverAll-1">The Conjuring 2016</div></a>
+
+                                <a href="#"><div class="OverAll-2">دانلود</div></a>
+
+                                <a href="#"><div class="OverAll-3">Add To Watch List</div></a></li>
+                        </ul>
+                    </div>
+                    <div class="New-1 p0" data-merge="1">
+                        <ul>
+                            <li>
+                                <img src="img/D.jpg"  alt="Cinque Terre">
+
+                                <a href="#"><div class="OverAll-1">The Conjuring 2016</div></a>
+
+                                <a href="#"><div class="OverAll-2">دانلود</div></a>
+
+                                <a href="#"><div class="OverAll-3">Add To Watch List</div></a></li>
+                        </ul>
+                    </div>
+                    <div class="New-1 p0" data-merge="1">
+                        <ul>
+                            <li>
+                                <img src="img/2.jpg"  alt="Cinque Terre">
+
+                                <a href="#"><div class="OverAll-1">The Conjuring 2016</div></a>
+
+                                <a href="#"><div class="OverAll-2">دانلود</div></a>
+
+                                <a href="#"><div class="OverAll-3">Add To Watch List</div></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- right-side-panel -->
+        <div class="col-lg-3 col-md-3 hidden-sm hidden-xs side-panel">
+            <div class="col-lg-12 col-md-12 side-tittle">آرشیو فیلم ها</div>
+                <div class="col-lg-11 col-md-11 side-tittle2">تفکیک بر اساس ژانر</div>
+                    <ul class="col-lg-10 col-md-10 movies-archive-in p0">
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">ماجراجویی</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">انیمیشن</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">جنگی</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">کمدی</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">جنایی</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">مستند</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">درام</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">فانتزی</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">تاریخی</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">ترسناک</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">اکشن</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">رازآلود</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">موزیکال</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">عاشقانه</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">ورزشی</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">وسترن</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">علمی - تخیلی</div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">بالیوود</div>
+                            </a></li>
+                    </ul>
+                <div class="col-lg-11 col-md-11 side-tittle2">تفکیک بر اساس سال انتشار</div>
+                    <ul class="col-lg-10 col-md-10 movies-archive-in p0">
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">1940 - 1950</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">1940 - 1950</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">1940 - 1950</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">1940 - 1950</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">1940 - 1950</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2006 - 2005</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2007 - 2006</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2008 - 2007</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2009 - 2008</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2010 - 2009</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2011 - 2010</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2012 - 2011</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2013 - 2012</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2014 - 2013</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2015 - 2014</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2016 - 2015</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2017 - 2016</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2018 - 2017</div>
+                             </a>
+                        </li>
+                        <li><a href="#">
+                               <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">2019 - 2018</div>
+                             </a>
+                        </li>
+                    </ul>
+                <div class="col-lg-11 col-md-11 side-tittle2">کالکشن ها</div>
+                        <ul class="col-lg-10 col-md-10 movies-archive-in p0">
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                        </ul>
+                <div class="col-lg-11 col-md-11 side-tittle2">آرشیو جوایز</div>
+                        <ul class="col-lg-10 col-md-10 movies-archive-in p0">
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    اسکار 1940 - 1950
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    اسکار 2009
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    اسکار 2017
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    اسکار 2018
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    اسکار 2019
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    گلدن گلوب
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    جشنواره برلین
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    جشنواره فیلم فجر
+                                </div>
+                            </a></li>
+                        </ul>
+
+            <div class="col-lg-12 col-md-12 side-tittle">آرشیو سریال ها</div>
+                <div class="col-lg-11 col-md-11 side-tittle2">تفکیک بر اساس نام</div>
+                        <ul class="col-lg-10 col-md-10 movies-archive-in p0">
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    0 - 9
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    A - C
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    D - F
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    G - I
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    J - L
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    M - O
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    P - R
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    S - U
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    V - X
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Y - Z
+                                </div>
+                            </a></li>
+                        </ul>
+                <div class="col-lg-11 col-md-11 side-tittle2">پربازدید ترین ها</div>
+                        <ul class="col-lg-10 col-md-10 movies-archive-in p0">
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="col-lg-12 col-md-12 hvr-bounce-to-left movies-archive-div">
+                                    Fantastic Beasts and Where to Find Them 2016
+                                </div>
+                            </a></li>
+                        </ul>
+        </div>
+        <!-- END-right-side-panel -->
+
+
+
+
+    <!-- Search Advance -->
+        <div class="col-lg-9 col-md-9 Search-Advance p0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Adv-Title p0">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Adv-View"></div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 Adv-T-Btn "></div>
+            </div>
+            <ul class="p0">
+                <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 p0">
+                    <div class="col-lg-4 colmd-4 col-sm-4 col-xs-4 Adv-T">کارگردان</div>
+                    <div class="col-lg-8 colmd-8 col-sm-8 col-xs-8 Adv-Box p0">
+                        <input type="text" class="col-lg-12 colmd-12 col-sm-12 col-xs-12" id="director" name="director" value="" placeholder="مثال : david fincher">
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 p0">
+                    <div class="col-lg-4 colmd-4 col-sm-4 col-xs-4 Adv-T">بازیگر</div>
+                    <div class="col-lg-8 colmd-8 col-sm-8 col-xs-8 Adv-Box p0">
+                        <input type="text" class="col-lg-12 colmd-12 col-sm-12 col-xs-12" id="director" name="director" value="" placeholder="مثال : david fincher">          
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 p0">
+                    <div class="col-lg-4 colmd-4 col-sm-4 col-xs-4 Adv-T">نوع</div>
+                    <div class="col-lg-8 colmd-8 col-sm-8 col-xs-8 Adv-Box p0">            
+                        <select id="selectbox1" class="col-lg-12 colmd-12 col-sm-12 col-xs-12">
+                            <option value="">همه . . .</option>
+                            <option value="aye">فیلم</option>
+                            <option value="eh">سریال</option>
+                            <option value="ooh">انیمه</option>
+                            <option value="whoop">انیمیشن</option>
+                            <option value="eh">مستند</option>
+                            <option value="ooh">مراسم</option>
+                            <option value="whoop">کنسرت</option>
+                        </select>  
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 p0">
+                    <div class="col-lg-4 colmd-4 col-sm-4 col-xs-4 Adv-T">ژانر</div>
+                    <div class="col-lg-8 colmd-8 col-sm-8 col-xs-8 Adv-Box p0">            
+                        <select id="selectbox1" class="col-lg-12 colmd-12 col-sm-12 col-xs-12">
+                            <option value="">همه . . .</option>
+                            <option value="aye">کمدی</option>
+                            <option value="eh">درام</option>
+                            <option value="ooh">اکشن</option>
+                            <option value="whoop">عاشقانه</option>
+                            <option value="aye">هیجان انگیز</option>
+                            <option value="eh">ماجراجویی</option>
+                            <option value="ooh">جنایی</option>
+                            <option value="whoop">ترسناک</option>
+                            <option value="aye">معمایی</option>
+                            <option value="eh">علمی-تخیلی</option>
+                            <option value="ooh">خانوادگی</option>
+                            <option value="whoop">مستند</option>
+                            <option value="eh">فانتزی</option>
+                            <option value="ooh">انیمیشن</option>
+                            <option value="whoop">زندگینامه</option>
+                            <option value="aye">جنگی</option>
+                            <option value="eh">موزیک</option>
+                            <option value="ooh">تاریخی</option>
+                            <option value="whoop">موزیکال</option>
+                            <option value="ooh">وسترن</option>
+                            <option value="whoop">ورزشی</option>
+                            <option value="eh">سیتکام</option>
+                            <option value="ooh">خبری</option>
+                            <option value="whoop">ابر قهرمانی</option>
+                            <option value="aye">مسابقه تلویزیونی</option>
+                            <option value="eh">فراطبیعی</option>
+                            <option value="ooh">لایو اکشن</option>
+                            <option value="whoop">برنامه تلویزیونی</option>
+                            <option value="eh">استند آپ کمدی</option>
+                            <option value="ooh">تاک شو</option>
+                        </select>  
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 p0">
+                    <div class="col-lg-4 colmd-4 col-sm-4 col-xs-4 Adv-T">امتیاز</div>
+                    <div class="col-lg-8 colmd-8 col-sm-8 col-xs-8 Adv-Box p0">            
+                        <select id="selectbox1" class="col-lg-12 colmd-12 col-sm-12 col-xs-12">
+                            <option value="">همه . . .</option>
+                            <option value="aye">9.0 بالای</option>
+                            <option value="ooh">8.5 بالای</option>
+                            <option value="eh">8.0 بالای</option>
+                            <option value="whoop">7.5 بالای</option>
+                            <option value="aye">7.0 بالای</option>
+                            <option value="eh">6.5 بالای</option>
+                            <option value="ooh">6.0 بالای</option>
+                            <option value="whoop">5.0 بالای</option>
+                            <option value="whoop">5.0 زیر</option>
+                        </select>  
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 p0">
+                    <div class="col-lg-4 colmd-4 col-sm-4 col-xs-4 Adv-T">کیفیت</div>
+                    <div class="col-lg-8 colmd-8 col-sm-8 col-xs-8 Adv-Box p0">            
+                        <select id="selectbox1" class="col-lg-12 colmd-12 col-sm-12 col-xs-12">
+                            <option value="">همه&hellip;</option>
+                            <option value="aye">4K</option>
+                            <option value="eh">Remux</option>
+                            <option value="ooh">FULL HD BluRay</option>
+                            <option value="whoop">BluRay</option>
+                            <option value="ooh">BrRip</option>
+                            <option value="whoop">WEB-DL</option>
+                            <option value="ooh">WEBRip</option>
+                            <option value="whoop">HDTV</option>
+                            <option value="ooh">DVDRip</option>
+                            <option value="whoop">HDTC</option>
+                            <option value="ooh">R5</option>
+                            <option value="whoop">HDRip</option>
+                            <option value="whoop">HDTS</option>
+                            <option value="whoop">HDCam</option>
+                            <option value="whoop">DVDSCR</option>
+                            <option value="whoop">TC</option>
+                            <option value="whoop">CAM</option>
+                        </select>  
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 p0">
+                    <div class="col-lg-4 colmd-4 col-sm-4 col-xs-4 Adv-T">کشور</div>
+                    <div class="col-lg-8 colmd-8 col-sm-8 col-xs-8 Adv-Box p0">            
+                        <select id="selectbox1" class="col-lg-12 colmd-12 col-sm-12 col-xs-12">
+                            <option value="">همه . . .</option>
+                            <option value="aye">آرژانتین</option>
+                            <option value="eh">آلمان</option>
+                            <option value="ooh">آمریکا</option>
+                            <option value="whoop">استرالیا</option>
+                            <option value="aye">اسپانیا</option>
+                            <option value="eh">انگلستان</option>
+                            <option value="ooh">بلژیک</option>
+                            <option value="whoop">برزیل</option>
+                            <option value="aye">ایران</option>
+                            <option value="eh">فرانسه</option>
+                            <option value="ooh">مجارستان</option>
+                            <option value="whoop">مالزی</option>
+                            <option value="aye">چین</option>
+                            <option value="eh">کاستاریکا</option>
+                            <option value="ooh">کره جنوبی</option>
+                            <option value="whoop">یونان</option>
+                            <option value="aye">لهستان</option>
+                            <option value="eh">بلغارستان</option>
+                            <option value="ooh">تایلند</option>
+                            <option value="whoop">سنگاپور</option>
+                            <option value="aye">سوئیس</option>
+                            <option value="eh">اتریش</option>
+                            <option value="ooh">سوئد</option>
+                            <option value="whoop">روسیه</option>
+                            <option value="aye">هند</option>
+                            <option value="eh">پرتغال</option>
+                            <option value="ooh">نیوزلند</option>
+                            <option value="whoop">پاکستان</option>
+                            <option value="aye">مکزیک</option>
+                            <option value="eh">رومانی</option>
+                            <option value="ooh">ژاپن</option>
+                            <option value="whoop">ایتالیا</option>
+                        </select>  
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 p0">
+                    <div class="col-lg-4 colmd-4 col-sm-4 col-xs-4 Adv-T">زبان</div>
+                    <div class="col-lg-8 colmd-8 col-sm-8 col-xs-8 Adv-Box p0">            
+                        <select id="selectbox1" class="col-lg-12 colmd-12 col-sm-12 col-xs-12">
+                            <option value="">همه . . .</option>
+                            <option value="aye">آلمانی</option>
+                            <option value="eh">انگلیسی</option>
+                            <option value="ooh">اسپانیایی</option>
+                            <option value="whoop">ایسلندی</option>
+                            <option value="aye">ایتالیایی</option>
+                            <option value="eh">اکراینی</option>
+                            <option value="ooh">روسی</option>
+                            <option value="whoop">عربی</option>
+                            <option value="aye">فارسی</option>
+                            <option value="eh">پرتغالی</option>
+                            <option value="ooh">هلندی</option>
+                            <option value="whoop">ژاپنی</option>
+                            <option value="aye">چینی</option>
+                            <option value="eh">ترکی</option>
+                            <option value="ooh">هندی</option>
+                            <option value="whoop">یونانی</option>
+                        </select>  
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 p0">
+                    <div class="col-lg-4 colmd-4 col-sm-4 col-xs-4 Adv-T">انتشار</div>
+                    <div class="col-lg-8 colmd-8 col-sm-8 col-xs-8 Adv-Box p0">            
+                        <select id="selectbox1" class="col-lg-12 colmd-12 col-sm-12 col-xs-12">
+                            <option value="">همه . . .</option>
+                            <option value="aye">1950-1960</option>
+                            <option value="aye">1960-1970</option>
+                            <option value="aye">1970-1980</option>
+                            <option value="aye">1980-1990</option>
+                            <option value="aye">1990-1995</option>
+                            <option value="aye">1995-2000</option>
+                            <option value="aye">2005-2010</option>
+                            <option value="aye">2011</option>
+                            <option value="aye">2012</option>
+                            <option value="aye">2013</option>
+                            <option value="aye">2014</option>
+                            <option value="aye">2015</option>
+                            <option value="aye">2016</option>
+                            <option value="aye">2017</option>
+                            <option value="aye">2018</option>
+                            <option value="aye">2019</option>
+                        </select>  
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 p0">
+                    <div class="col-lg-4 colmd-4 col-sm-4 col-xs-4 Adv-T">رده سنی</div>
+                    <div class="col-lg-8 colmd-8 col-sm-8 col-xs-8 Adv-Box p0">            
+                        <select id="selectbox1" class="col-lg-12 colmd-12 col-sm-12 col-xs-12">
+                            <option value="">همه . . .</option>
+                            <option value="aye">بالای 13 سال</option>
+                            <option value="eh">بالای 17 سال</option>
+                        </select>  
+                    </div>
+                </li> 
+                <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 p0">
+                    <div class="col-lg-4 colmd-4 col-sm-4 col-xs-4 Adv-T">شبکه</div>
+                    <div class="col-lg-8 colmd-8 col-sm-8 col-xs-8 Adv-Box p0">            
+                        <select id="selectbox1" class="col-lg-12 colmd-12 col-sm-12 col-xs-12">
+                            <option value="">همه . . .</option>
+                            <option value="aye">A&amp;E</option>
+                            <option value="aye">ABC</option>
+                            <option value="aye">AMC</option>
+                            <option value="aye">Amazon Instant Video</option>
+                            <option value="aye">Audience Network</option>
+                            <option value="aye">BBC America</option>
+                            <option value="aye">BBC One</option>
+                            <option value="aye">BBC Three</option>
+                            <option value="aye">Bravo</option>
+                            <option value="aye">CBS</option>
+                            <option value="aye">CBC</option>
+                            <option value="aye">Cinemax</option>
+                            <option value="aye">Channel 4</option>
+                            <option value="aye">CityTV</option>
+                            <option value="aye">CMT</option>
+                            <option value="aye">Comedy Central</option>
+                            <option value="aye">CraveTV</option>
+                            <option value="aye">CTV</option>
+                            <option value="aye">Disney</option>
+                            <option value="aye">Discovery Channel</option>
+                            <option value="aye">E!</option>
+                            <option value="aye">El Rey Network</option>
+                            <option value="aye">FOX</option>
+                            <option value="aye">Freeform</option>
+                            <option value="aye">FX</option>
+                            <option value="aye">Global</option>
+                            <option value="aye">FXX</option>
+                            <option value="aye">HBO</option>
+                            <option value="aye">Hallmark Channel</option>
+                            <option value="aye">History Channel</option>
+                            <option value="aye">ITV</option>
+                            <option value="aye">hulu</option>
+                            <option value="aye">MTV</option>
+                            <option value="aye">Lifetime</option>
+                            <option value="aye">NBC</option>
+                            <option value="aye">National Geographic Channel</option>
+                            <option value="aye">Netflix</option>
+                            <option value="aye">Nickelodeon</option>
+                            <option value="aye">Other</option>
+                            <option value="aye">OWN</option>
+                            <option value="aye">PBS</option>
+                            <option value="aye">Showcase</option>
+                            <option value="aye">Showtime</option>
+                            <option value="aye">Sky Atlantic</option>
+                            <option value="aye">Space</option>
+                            <option value="aye">Spike TV</option>
+                            <option value="aye">Starz</option>
+                            <option value="aye">Sundance</option>
+                            <option value="aye">SyFy</option>
+                            <option value="aye">The CW</option>
+                            <option value="aye">TBS</option>
+                            <option value="aye">TNT</option>
+                            <option value="aye">The Science Channel</option>
+                            <option value="aye">TV Land</option>
+                            <option value="aye">USA</option>
+                            <option value="aye">WE</option>
+                            <option value="aye">WGN</option>
+                            <option value="aye">WOWOW</option>
+                        </select>  
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 p0">
+                    <div class="col-lg-4 colmd-4 col-sm-4 col-xs-4 Adv-T">انکودر</div>
+                    <div class="col-lg-8 colmd-8 col-sm-8 col-xs-8 Adv-Box p0">            
+                        <select id="selectbox1" class="col-lg-12 colmd-12 col-sm-12 col-xs-12">
+                            <option value="">همه . . .</option>
+                            <option value="aye">اختصاصی</option>
+                            <option value="aye">YIFY</option>
+                            <option value="aye">AdiT</option>
+                            <option value="aye">RARBG</option>
+                            <option value="aye">AMIABLE</option>
+                            <option value="aye">FGT</option>
+                            <option value="aye">PublicHD</option>
+                            <option value="aye">ROVERS</option>
+                            <option value="aye">VETO</option>
+                            <option value="aye">Ganool</option>
+                            <option value="aye">JYK</option>
+                            <option value="aye">Grym</option>
+                            <option value="aye">Tigole</option>
+                            <option value="aye">anoXmous</option>
+                            <option value="aye">ETRG</option>
+                            <option value="aye">CiNEFiLE</option>
+                            <option value="aye">x0r</option>
+                            <option value="aye">PSA</option>
+                            <option value="aye">MkvCage</option>
+                            <option value="aye">ShAaNiG</option>
+                            <option value="aye">Shiv@</option>
+                            <option value="aye">MAZE</option>
+                            <option value="aye">KiNGDOM</option>
+                            <option value="aye">CtrlHD</option>
+                            <option value="aye">TuGAZx</option>
+                            <option value="aye">Ozlem</option>
+                            <option value="aye">scOrp</option>
+                            <option value="aye">nItRo</option>
+                            <option value="aye">WiKi</option>
+                            <option value="aye">SPARKS</option>
+                            <option value="aye">nelly45</option>
+                            <option value="aye">HighCode</option>
+                            <option value="aye">EbP</option>
+                            <option value="aye">iKA</option>
+                            <option value="aye">D3FiL3R</option>
+                            <option value="aye">CzTeamHD</option>
+                            <option value="aye">DTSHD</option>
+                            <option value="aye">P2P</option>
+                            <option value="aye">EVO</option>
+                            <option value="aye">BDP</option>
+                            <option value="aye">Judas</option>
+                            <option value="aye">BADASSMEDIA</option>
+                            <option value="aye">FLAiTE</option>
+                            <option value="aye">ALTEREGO</option>
+                            <option value="aye">PrimE</option>
+                            <option value="aye">FLEET</option>
+                            <option value="aye">BLOW</option>
+                            <option value="aye">DIMENSION</option>
+                            <option value="aye">PLUTONiUM</option>
+                            <option value="aye">JIVE</option>
+                            <option value="aye">PDX</option>
+                            <option value="aye">mSD</option>
+                            <option value="aye">MeGusta</option>
+                            <option value="aye">AFG</option>
+                            <option value="aye">Tungle</option>
+                            <option value="aye">ANGELiC</option>
+                            <option value="aye">iFT</option>
+                            <option value="aye">BAJSKORV</option>
+                            <option value="aye">Qman</option>
+                            <option value="aye">monkee</option>
+                            <option value="aye">FaiLED</option>
+                            <option value="aye">KiNGS</option>
+                            <option value="aye">ViSUM</option>
+                            <option value="aye">TURBO</option>
+                            <option value="aye">ENRAGED</option>
+                            <option value="aye">LiebeHD</option>
+                            <option value="aye">W4F</option>
+                            <option value="aye">BRAVERY</option>
+                            <option value="aye">CiNEFiLE</option>
+                            <option value="aye">kEISO</option>
+                            <option value="aye">Mrflac</option>
+                            <option value="aye">INFERNO</option>
+                            <option value="aye">mRs</option>
+                            <option value="aye">RMTeam</option>
+                            <option value="aye">Joy</option>
+                            <option value="aye">Sticky83</option>
+                            <option value="aye">DeeJayAhmed</option>
+                            <option value="aye">MRN</option>
+                            <option value="aye">MeGusta</option>
+                            <option value="aye">LOL</option>
+                            <option value="aye">GunGravE</option>
+                            <option value="aye">FLEET</option>
+                        </select>  
+                    </div>
+                </li>
+                <li class="col-lg-8 col-md-8 col-sm-12 col-xs-12 p0">
+                    <ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
+                        <li class="col-lg-4 col-md-4 col-sm-4 col-xs-4 p0">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Adv-CB p0">
+                                <input id="toggle1" type="checkbox" checked>
+                                <label for="toggle1">دوبله فارسی</label>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-4 col-sm-4 col-xs-4 p0">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Adv-CB p0">
+                                <input id="toggle2" type="checkbox">
+                                <label for="toggle2">سه بعدی</label>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-4 col-sm-4 col-xs-4 p0">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Adv-CB p0">
+                              <input id="toggle3" type="checkbox">
+                              <label for="toggle3">265x</label>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-12 col-xs-12 p0">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 Adv-B">جستجوی پیشرفته </div>
+                </li>
+                
+            </ul>
+            
+        </div>
+
+      
+     <!-- News -->
+
+      <!-- week series -->
+
+
+
+      <!-- POST -->
+
+
+
+
+
+    </div>
+      <!-- FOOTER -->
+       <footer>
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 foot-menu p0">
+                    <ul class="p0">
+                        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 hvr-shutter-out-horizontal"><a href="#">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 foot-menu-in">صفحه نخست</div>
+                        </a></li>
+                        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 hvr-shutter-out-horizontal"><a href="#">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 foot-menu-in">اکانت ویژه</div>
+                        </a></li>
+                        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 hvr-shutter-out-horizontal"><a href="#">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 foot-menu-in">آرشیو فیلم ها</div>
+                        </a></li>
+                        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 hvr-shutter-out-horizontal"><a href="#">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 foot-menu-in">آرشیو سریال ها</div>
+                        </a></li>
+                        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 hvr-shutter-out-horizontal"><a href="#">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 foot-menu-in">آرشیو بازیگران</div>
+                        </a></li>
+                        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 hvr-shutter-out-horizontal"><a href="#">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 foot-menu-in">تماس با ما</div>
+                        </a></li>
+                    </ul>
+				</div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs follow p0">
+                                <ul class="p0">
+                                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hvr-shutter-out-horizontal"><a href="#">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 follow-inner">
+                                            <img src="img/km-player.png"  alt="Cinque Terre">
+                                            <strong>دانلود KMPlayer</strong>
+                                        </div>
+                                    </a></li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hvr-shutter-out-horizontal"><a href="#">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 follow-inner">
+                                            <img src="img/idm.png"  alt="Cinque Terre">
+                                            <strong>دانلود Internet Download Manager</strong>
+                                        </div>
+                                    </a></li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hvr-shutter-out-horizontal"><a href="#">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 follow-inner">
+                                            <img src="img/vlc.png"  alt="Cinque Terre">
+                                            <strong>دانلود VLC Player</strong>
+                                        </div>
+                                    </a></li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hvr-shutter-out-horizontal"><a href="#">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 follow-inner">
+                                            <img src="img/chrome.png"  alt="Cinque Terre">
+                                            <strong>دانلود Google Chorme</strong>
+                                        </div>
+                                    </a></li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hvr-shutter-out-horizontal"><a href="#">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 follow-inner">
+                                            <img src="img/fire-fox.png"  alt="Cinque Terre">
+                                            <strong>دانلود Mozilla Firefox</strong>
+                                        </div>
+                                    </a></li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hvr-shutter-out-horizontal"><a href="#">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 follow-inner">
+                                            <img src="img/winrar.png"  alt="Cinque Terre">
+                                            <strong>دانلود WinRAR</strong>
+                                        </div>
+                                    </a></li>
+                                </ul>
+                            </div>
+
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 column-right p0">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 address-site p0">
+                            <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs p0">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 address-tittle">آدرس فعلی سایت : </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hvr-shutter-out-horizontal address-web">
+                                    <a href="#">www.google.com</a></div>
+
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 address-tittle">آدرس بعدی سایت : </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hvr-shutter-out-horizontal  address-web">
+                                    <a href="#">www.google.com</a></div>
+
+                            </div>
+                        </div>
+                        <a href="#"><div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hvr-shutter-out-horizontal btn-blocks">
+                            <div class="icon-requet-movie"><i class="icon-file-movie-o"></i></div>
+                            <div class="f-tittle-s" >درخواست فیلم</div>
+                            <div class="f-tittle-b">ابتدا جستجو نمایید سپس درخواست دهید</div>
+                        </div></a>
+                        <a href="#"><div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hvr-shutter-out-horizontal btn-blocks">
+                            <div class="icon-requet-movie"><i class="icon-box-add"></i></div>
+                            <div class="f-tittle-s">دانلود آدرس یاب</div>
+                            <div class="f-tittle-b" >آدرس یاب هوشمند و سریع با یک کلیک</div>
+                        </div></a>
+                        <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs Contact p0">
+                            <ul class="p0">
+                                <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hvr-shutter-out-horizontal"><a href="#">
+                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-inner">
+                                       <i class="icon-facebook-f"></i>
+                                   </div>
+                               </a> </li>
+                                <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hvr-shutter-out-horizontal"><a href="#">
+                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-inner">
+                                       <i class="icon-telegram"></i>
+                                   </div>
+                               </a> </li>
+                                <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hvr-shutter-out-horizontal"><a href="#">
+                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-inner">
+                                       <i class="icon-google-plus"></i>
+                                   </div>
+                               </a> </li>
+                                <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hvr-shutter-out-horizontal"><a href="#">
+                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-inner">
+                                       <i class="icon-instagram"></i>
+                                   </div>
+                               </a> </li>
+                                <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hvr-shutter-out-horizontal"><a href="#">
+                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-inner">
+                                       <i class="icon-twitter"></i>
+                                   </div>
+                               </a> </li>
+                                <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hvr-shutter-out-horizontal"><a href="#">
+                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-inner">
+                                       <i class="icon-yahoo2"></i>
+                                   </div>
+                               </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 Copy p0">تمامی حقوق مادی و معنوی قالب متعلق به این سایت بوده و کپی برداری از آن پیگرد قانونی دارد.
+                </div>
+    
+
+</footer>
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript" src="js/toggle.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/jquery.selectric.min.js"></script>
+    <!-- sticky -->
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("navbar");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+
+</script>
+    <!-- navbar-1 show/hide -->
+<script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+            document.getElementById("body").style.overflow = "hidden";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+            document.getElementById("body").style.overflow = "auto";
+        }
+</script>
+<script>
+    $('select').selectric();
+</script>
+      // Iterate over each select element
+
+</body>
+</html>
